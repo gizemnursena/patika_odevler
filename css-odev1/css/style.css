@@ -1,53 +1,42 @@
-body{
-    background-color: darkgrey;
-}
-
-
-nav {
-    display: block;
-    margin-left: 29em;
-    
-}
-
-nav a{
-
-    padding-right: 16px;
-
-}
 
 h1 {
     color: rgb(253, 34, 34);
 }
 
-header {
-    margin-left: 30em;
+.nav {
+    display:flex;
+    margin-left: 29em;
     
 }
 
-#section2 {
-
-    margin-left: 32em;
+.nav a{
+    padding-left: 10px;
+    
 }
 
-#section2 h2 {
-
-    color: goldenrod;
-    font-size: 18px;
-}
-
-#section2 li {
-
-    margin-left: 5em;
-
-}
-
-#section1 h2 {
+.section1 h2 {
 
     color: darkorchid;
 }
 
-#section1 h2{
+.section1 {
+    text-align: center;
+}
 
-    margin-left: 25em;
+.section2 ul{
+
+    width: 5%;
+    margin: auto;
+
+}
+
+.product {
+    
+    text-align: center;
+    list-style-position: inside;
+}
+.about h3 {
+
+    color: yellow;
 
 }
